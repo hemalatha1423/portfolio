@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hemalatha D - Computer Science (AI) Portfolio">
+  <title>Hemalatha D | AI & Computer Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main>
+
+  <aside class="sidebar">
+    <div class="profile">
+      <div class="avatar">HD</div>
+      <h1>Hemalatha D</h1>
+      <p>Computer Science (AI) Graduate</p>
+    </div>
+
+    <div class="contact-list">
+      <div class="contact-item">
+        <span>✉</span>
+        <div><small>Email</small><a href="mailto:hemalatha1423@gmail.com">hemalatha1423@gmail.com</a></div>
+      </div>
+      <div class="contact-item">
+        <span>☎</span>
+        <div><small>Phone</small><a href="tel:+919483980011">+91 9483980011</a></div>
+      </div>
+      <div class="contact-item">
+        <span>⌁</span>
+        <div><small>Focus</small><p>AI • Databases • Cloud</p></div>
+      </div>
+    </div>
+
+    <div class="sidebar-skills">
+      <span>Python</span><span>SQL</span><span>MySQL</span>
+      <span>MongoDB</span><span>AWS</span><span>Google Cloud</span>
+    </div>
+
+    <div class="social-links">
+      <a href="https://github.com/hemalatha1423" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/hemalatha-d-87322531a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </aside>
+
+  <section class="content">
+    <nav class="navbar">
+      <button class="nav-link active" data-page="about">About</button>
+      <button class="nav-link" data-page="resume">Resume</button>
+      <button class="nav-link" data-page="projects">Projects</button>
+      <button class="nav-link" data-page="certifications">Certifications</button>
+      <button class="nav-link" data-page="contact">Contact</button>
+    </nav>
+
+    <article id="about" class="page active">
+      <h2>About Me</h2>
+      <div class="hero">
+        <div>
+          <p class="eyebrow">COMPUTER SCIENCE • ARTIFICIAL INTELLIGENCE</p>
+          <h3>Building practical solutions with <span>AI, databases & cloud.</span></h3>
+          <p>
+            I am a Computer Science (Artificial Intelligence) graduate with a strong foundation
+            in SQL, Database Management Systems, MySQL, MongoDB and Cloud Computing.
+            I enjoy learning new technologies and applying technical knowledge to solve
+            real-world problems.
+          </p>
+          <div class="hero-buttons">
+            <button class="primary" onclick="showPage('projects')">View My Projects</button>
+            <button class="secondary" onclick="showPage('contact')">Contact Me</button>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="section-title">What I Work With</h3>
+      <div class="cards">
+        <div class="card"><div class="icon">AI</div><h4>Artificial Intelligence</h4><p>AI-focused problem solving and practical project development.</p></div>
+        <div class="card"><div class="icon">DB</div><h4>Database Systems</h4><p>SQL, MySQL, MongoDB and database-driven applications.</p></div>
+        <div class="card"><div class="icon">☁</div><h4>Cloud Computing</h4><p>Foundational knowledge of AWS and Google Cloud.</p></div>
+        <div class="card"><div class="icon">PY</div><h4>Python Development</h4><p>Python applications, CRUD systems and data-oriented solutions.</p></div>
+      </div>
+    </article>
+
+    <article id="resume" class="page">
+      <h2>Resume</h2>
+
+      <section class="timeline-section">
+        <h3>Education</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="date">2022 — 2026</span>
+            <h4>Bachelor of Computer Science (Artificial Intelligence)</h4>
+            <p>Ballari Institute of Technology and Management</p>
+            <strong>CGPA: 9.11</strong>
+          </div>
+          <div class="timeline-item">
+            <span class="date">2022</span>
+            <h4>Class XII</h4>
+            <p>Karnataka State Board</p>
+            <strong>83.5%</strong>
+          </div>
+          <div class="timeline-item">
+            <span class="date">2020</span>
+            <h4>Class X</h4>
+            <p>CBSE</p>
+            <strong>68.4%</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline-section">
+        <h3>Experience</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="date">2023</span>
+            <h4>Python Programming Intern</h4>
+            <p>EZ Trainings and Technologies Pvt. Ltd.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3 class="section-title">Technical Skills</h3>
+        <div class="skill-grid">
+          <div><h4>Programming</h4><p>Python • C • UI/UX (Basics)</p></div>
+          <div><h4>Databases</h4><p>SQL • MySQL • NoSQL • MongoDB</p></div>
+          <div><h4>Cloud</h4><p>AWS (Basics) • Google Cloud</p></div>
+          <div><h4>Soft Skills</h4><p>Problem-Solving • Analytical Thinking • Collaboration • Communication</p></div>
+        </div>
+      </section>
+    </article>
+
+    <article id="projects" class="page">
+      <h2>Projects</h2>
+      <p class="intro">A selection of academic and practical systems developed using Python, databases, AI and cloud-oriented technologies.</p>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <span class="tag">Python • Flask • MongoDB</span>
+          <h3>Administrative Management System (AMS)</h3>
+          <a class="project-link" href="https://github.com/hemalatha1423/-Administrative-management-system" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+          <p>Web application for admissions, attendance, fees, grading and student management with role-based access and analytics.</p>
+        </div>
+
+        <div class="project-card">
+          <span class="tag">Python • MySQL</span>
+          <h3>Hotel Database Management System</h3>
+          <a class="project-link" href="https://github.com/hemalatha1423/Hotel-Management" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+          <p>Database application for managing hotel operations, bookings, staff and payments.</p>
+        </div>
+
+        <div class="project-card">
+          <span class="tag">Python • CRUD</span>
+          <h3>Witness Protection Program Management System</h3>
+          <p>Python-based system designed to manage and safeguard witness records using CRUD operations.</p>
+        </div>
+
+        <div class="project-card">
+          <span class="tag">AI • GPS • ML</span>
+          <h3>Rescue Now</h3>
+          <a class="project-link" href="https://github.com/hemalatha1423/HealthTech-main" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+          <p>AI-driven emergency response concept integrating GPS, machine learning and hospital routing to improve patient-ambulance connectivity.</p>
+        </div>
+      </div>
+    </article>
+
+    <article id="certifications" class="page">
+      <h2>Certifications & Achievements</h2>
+
+      <div class="cert-grid">
+        <div class="cert-card"><span>01</span><h3>AI Agent Creation Workshop</h3><p>GeeksforGeeks & Salesforce</p></div>
+        <div class="cert-card"><span>02</span><h3>Google Cloud Career Launchpad</h3><p>Engineer Track</p></div>
+        <div class="cert-card"><span>03</span><h3>Getting Started with Enterprise-grade AI</h3><p>IBM</p></div>
+        <div class="cert-card"><span>04</span><h3>30-Days Power BI Micro Course</h3><p>November 21, 2024</p></div>
+        <div class="cert-card"><span>05</span><h3>Welcome to ServiceNow</h3><p>Micro-Certification • October 29, 2025</p></div>
+        <div class="cert-card"><span>06</span><h3>ServiceNow Certified System Administrator</h3><p>CSA • March 26, 2026</p></div>
+        <div class="cert-card"><span>07</span><h3>ServiceNow Certified Application Developer</h3><p>CAD • March 27, 2026</p></div>
+      </div>
+
+      <h3 class="section-title">Conferences & Events</h3>
+      <div class="cert-grid">
+        <div class="cert-card"><span>EVENT</span><h3>NASSCOM Tech Developer Confluence</h3><p>Confluence attended in Bangalore</p></div>
+      </div>
+    </article>
+
+    <article id="contact" class="page">
+      <h2>Contact</h2>
+      <div class="contact-box">
+        <h3>Let's Connect</h3>
+        <p>If you would like to discuss opportunities, projects or technology, feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:hemalatha1423@gmail.com">✉ hemalatha1423@gmail.com</a>
+          <a href="tel:+919483980011">☎ +91 9483980011</a>
+        </div>
+      </div>
+      <div class="note">
+        <strong>Professional Profiles</strong>
+        <div class="profile-links">
+          <a href="https://github.com/hemalatha1423" target="_blank" rel="noopener noreferrer">GitHub Profile →</a>
+          <a href="https://www.linkedin.com/in/hemalatha-d-87322531a/" target="_blank" rel="noopener noreferrer">LinkedIn Profile →</a>
+        </div>
+      </div>
+    </article>
+
+    <footer>© 2026 Hemalatha D • Computer Science (AI)</footer>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
